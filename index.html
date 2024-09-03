@@ -8,19 +8,34 @@
     <link rel="shortcut icon" href="img/clear.png" />
   </head>
   <body>
+    /**
+     * Card container for weather information
+     */
     <div class="card">
+      /**
+       * Search input field and button
+       */
       <div class="search">
         <input type="text" placeholder="Enter city name" spellcheck="false" />
         <button><img src="img/search.png" alt="" /></button>
       </div>
+      /**
+       * Error message container
+       */
       <div class="error">
         <p>Invalid city name.</p>
       </div>
+      /**
+       * Weather information container
+       */
       <div class="weather">
         <img src="img/rain.png" class="weather-icon" alt="" />
         <h1 class="temp">22*C</h1>
         <h2 class="city">MPL</h2>
         <div class="details">
+          /**
+           * Column container for humidity and wind speed details
+           */
           <div class="col">
             <img src="img/humidity.png" alt="" />
             <div>
